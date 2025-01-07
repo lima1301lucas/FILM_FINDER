@@ -1,6 +1,6 @@
 # Film Finder
 
-O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a encontrar filmes com base em suas preferências. Através de uma interface simples e intuitiva, o aplicativo permite pesquisar filmes, ver detalhes e assistir trailers.
+O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a encontrar filmes com base em suas preferências. Através de uma interface simples e intuitiva, o aplicativo permite pesquisar os filmes e ver detalhes.
 
 ## Tecnologias Utilizadas
 
@@ -14,7 +14,6 @@ O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a e
 
 - Pesquisa de filmes por título.
 - Exibição de informações detalhadas sobre cada filme, incluindo título, descrição, classificação e imagem.
-- Opção para visualizar trailers dos filmes.
 - Design responsivo, garantindo uma boa experiência em dispositivos móveis e desktop.
 
 ## Requisitos
