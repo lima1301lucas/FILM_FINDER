@@ -1,8 +1,38 @@
-# React + Vite
+# Film Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a encontrar filmes com base em suas preferências. Através de uma interface simples e intuitiva, o aplicativo permite pesquisar filmes, ver detalhes e assistir trailers.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **HTML5**: Estruturação do conteúdo da página.
+- **CSS3**: Estilização e design da página.
+- **Bootstrap**: Framework CSS para um design moderno e responsivo.
+- **JavaScript**: Interatividade e funcionalidades do aplicativo.
+- **API The Movie Database (TMDb)**: Utilizada para buscar informações sobre filmes.
+
+## Funcionalidades
+
+- Pesquisa de filmes por título.
+- Exibição de informações detalhadas sobre cada filme, incluindo título, descrição, classificação e imagem.
+- Opção para visualizar trailers dos filmes.
+- Design responsivo, garantindo uma boa experiência em dispositivos móveis e desktop.
+
+## Requisitos
+
+Node.js na versão ^22.12.0
+diff
+node -v
+
+npm na versão ^11.0.0
+diff
+npm -v
+
+## Instalação
+
+Siga as etapas abaixo para instalar e executar o projeto em sua máquina:
+
+1. Clone este repositório para sua máquina.
+2. Abra o terminal e navegue até o diretório do projeto.
+3. Execute o comando "npm install" para instalar as dependências.
+4. Execute o comando "npm run dev" para rodar o projeto
+5. Agora você está pronto para começar a editar/testar projeto.
