@@ -20,11 +20,9 @@ O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a e
 ## Requisitos
 
 Node.js na versão ^22.12.0
-diff
 node -v
 
 npm na versão ^11.0.0
-diff
 npm -v
 
 ## Instalação
