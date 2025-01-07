@@ -7,6 +7,7 @@ O **Film Finder** é um aplicativo web desenvolvido para ajudar os usuários a e
 - **HTML5**: Estruturação do conteúdo da página.
 - **CSS3**: Estilização e design da página.
 - **Bootstrap**: Framework CSS para um design moderno e responsivo.
+- **React**: Biblioteca JavaScript para construção da interface de usuário.
 - **JavaScript**: Interatividade e funcionalidades do aplicativo.
 - **API The Movie Database (TMDb)**: Utilizada para buscar informações sobre filmes.
 
