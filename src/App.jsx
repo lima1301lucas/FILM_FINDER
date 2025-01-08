@@ -1,9 +1,13 @@
-import './App.css'
+import './App.css';
+import {Header, Footer} from "./components"; 
+import {AllRoutes} from "./routes/AllRoutes.jsx"; 
 
 function App() {
   return (
     <>
-      <div className='container text-primary'>App</div>
+      <Header />
+      <AllRoutes />
+      <Footer />
     </>
   );
 }
