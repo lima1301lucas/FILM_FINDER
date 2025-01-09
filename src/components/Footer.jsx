@@ -1,5 +1,9 @@
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="container">
+      <footer className="py-3 my-5 border-top">
+        <p className="text-center text-body-secondary">&copy; 2025 Film Finder, Inc.</p>
+      </footer>
+    </div>
   )
 }

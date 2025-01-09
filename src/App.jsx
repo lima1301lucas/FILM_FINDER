@@ -1,6 +1,6 @@
 import './App.css';
-import {Header, Footer} from "./components"; 
-import {AllRoutes} from "./routes/AllRoutes.jsx"; 
+import { Header, Footer } from "./components"; 
+import { AllRoutes } from "./routes/AllRoutes.jsx";
 
 function App() {
   return (
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
