@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const useFetch = (apiPath, queryTerm = "") => {
   const [data, setData] = useState([]);
-  const url = `https://api.themoviedb.org/3/${apiPath}?query=${queryTerm}`;
+  const url = `https://api.themoviedb.org/3/${apiPath}?query=${queryTerm}&language=pt-BR`;
 
   useEffect(() => {
     const fetchMovies = async () => {
