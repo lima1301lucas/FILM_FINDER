@@ -17,7 +17,7 @@ body{
 }
 
 .text-overflow-1{
-    display: -webkit-box;
+    display: -webkit-box;   
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
