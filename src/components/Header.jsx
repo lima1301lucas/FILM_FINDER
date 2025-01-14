@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-md fixed-top bg-primary navbar-dark">
-      <div className="container-fluid">
+      <div className="container">
         <NavLink to="/" className="navbar-brand"><i className="bi bi-film"></i>&nbsp;Film Finder</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
           <span className="navbar-toggler-icon"></span>

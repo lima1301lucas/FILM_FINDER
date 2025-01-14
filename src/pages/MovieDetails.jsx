@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import backup from "../assets/backup.jpg";
-import { convertMinutes } from "../utils/utils";
+import { convertMinutes, formatDate, formatCurrency } from "../utils/utils";
 
 export const MovieDetails = () => {
     const { id } = useParams();
@@ -11,7 +11,7 @@ export const MovieDetails = () => {
     useEffect(() => {
       const fetchMovieDetails = async () => {
         try {
-          const url = `https://api.themoviedb.org/3/movie/${id}?language=pt-BR`;
+          const url = `https://api.themoviedb.org/3/movie/${id}?language=en-US`;
           const options = {
             method: "GET",
             headers: {
@@ -67,15 +67,15 @@ export const MovieDetails = () => {
                             </tr>
                             <tr>
                                 <th>Budget</th>
-                                <td>{movie.budget} USD</td>
+                                <td>{formatCurrency(movie.budget)}</td>
                             </tr>
                             <tr>
                                 <th>Revenue</th>
-                                <td>{movie.revenue} USD</td>
+                                <td>{formatCurrency(movie.revenue)}</td>
                             </tr>
                             <tr>
                                 <th>Release date</th>
-                                <td>{movie.release_date}</td>
+                                <td>{formatDate(movie.release_date)}</td>
                             </tr>
                         </tbody>
                     </table>
